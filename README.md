@@ -50,7 +50,7 @@ This converts all `*.mkv` videos in a directory. For my collection, all the MKV 
 This script loops over all the MP4 videos in a directory, removes all the meta data, and set the title meta data based on the filename. I used this to clear out the conflicting, incorrect, or non-standard meta data that often appears in videos from various sources.
 
 ### all-encodes.sh
-This script is just a master script. It uses `reset-meta.sh`, `concert-avi.sh` and `convert-mkv.sh` to process an entire directory of videos.
+This script is just a master script. It uses `reset-meta.sh`, `convert-avi.sh` and `convert-mkv.sh` to process an entire directory of videos.
 
 
 ### count-streams.sh
